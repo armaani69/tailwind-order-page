@@ -1,0 +1,22 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "practice.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./order_page_tailwind/styles.css -o ./order_page_tailwind/tailwind.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "JSONStream": "^1.3.5",
+    "json2csv": "^5.0.6",
+    "pg": "^8.7.3",
+    "pg-query-stream": "^4.2.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}
